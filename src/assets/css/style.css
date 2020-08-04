@@ -1,0 +1,165 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+}
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+}
+.box {
+  width: 50px;
+  height: 50px;
+  border: 1px solid;
+  margin: 10px 10px;
+  color: red;
+  flex-shrink: 0.5;
+}
+
+.text-primary {
+  color: #2f495e;
+}
+.text-secondary {
+  color: #00c58e;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 1.1em;
+  font-weight: 500;
+  letter-spacing: -2;
+  color: white;
+}
+
+h2{
+  text-transform: uppercase;
+  color: #00c58e;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+figure {
+  margin: 0;
+}
+
+.header {
+  background: rgb(250, 250, 250);
+  color: #00c58e;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+}
+
+.menu {
+  height: inherit;
+}
+
+header ul {
+  display: flex;
+  height: inherit;
+}
+
+.header li {
+  padding: 0px 10px;
+  flex-wrap: wrap;
+  height: inherit;
+}
+
+header figure {
+  height: inherit;
+  display: flex;
+  align-items: center;
+}
+
+header a {
+  color: #00c58e;
+  text-decoration: none;
+  height: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.hero {
+  height: 400px;
+  background-image: url("../images/angelHeaderSection.jpg"),
+    linear-gradient(90deg, rgba(47, 73, 94, 1) 10%, rgba(0, 197, 142, 1) 100%);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  display: flex;
+  align-items: center;
+}
+
+.hero strong {
+  color: #00c58e;
+}
+
+.portfolio{
+  padding: 20px;
+}
+
+.project {
+  border-color: #2f495e;
+  border-width: 1px;
+  border-radius: 20px;
+  border-style: solid;
+  margin-bottom: 15px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.project-details {
+  width: 500px;
+}
+
+.project-title{
+  font-size: 30px;
+  margin-top:0 ;
+  margin-bottom:5px;
+}
+.project-course,
+.project-url,
+.project-date{
+  margin:10px 0;
+}
+
+.project-description{
+  font-size:16px ;
+}
+
+.project-image-container {
+  width: 500px;
+}
+
+footer {
+  border-top: 0px solid;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-image: linear-gradient(
+    90deg,
+    rgba(47, 73, 94, 1) 10%,
+    rgba(0, 197, 142, 1) 100%
+  );
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer div {
+  padding: 0px 30px;
+}
+
+footer div p {
+  font-size: 20px;
+  color:#fafafa;
+}
